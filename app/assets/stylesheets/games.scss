@@ -1,0 +1,71 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "Helvetica";
+  color: #5C8BB7;
+}
+
+a {
+  padding: 15px;
+  background-color: #5C8BB7;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 14px 14px 21px -1px rgba(215,237,245,1);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.letters h1 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: #FFFFFF;
+  background: #005DFF;
+  text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+  color: #FFFFFF;
+  background: #005DFF;
+}
+
+.letters {
+  margin-bottom: 20px;
+}
+
+.letters p {
+  display: inline-block;
+  width: 25px;
+  padding: 20px;
+  background-color: #5C8BB7;
+  margin-right: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 14px 14px 21px -1px rgba(215,237,245,1);
+}
+
+#form {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid lightgray;
+}
+
+
+.result-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #5C8BB7;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
